@@ -1,0 +1,8 @@
+postgres:
+  database: try_aio
+  user: vlad
+  password: 1488
+  host: localhost
+  port: 5432
+  minsize: 1
+  maxsize: 5
