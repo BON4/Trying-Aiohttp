@@ -6,7 +6,6 @@ from aio.middlewares import setup_middlewares
 import aiohttp_jinja2
 import jinja2
 
-print(str(BASE_DIR / 'try_aio' / 'templates'))
 
 app = web.Application()
 setup_middlewares(app)
